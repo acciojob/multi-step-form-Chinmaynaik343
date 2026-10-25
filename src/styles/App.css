@@ -1,1 +1,54 @@
 
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.container h1,
+.container > p {
+    text-align: center;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.step h2 {
+    margin-bottom: 10px;
+}
+
+.step label {
+    font-weight: bold;
+}
+
+.step input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
